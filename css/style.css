@@ -1,14 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
  body {
-    background-color: gainsboro;
-    font-family: system-ui, sans-serif;
+    background-image: radial-gradient(circle, #5801c6, #3c0384, #2e0266);
+    font-family: "Rubik Mono One", serif;
     text-align: center;
     margin: 0;
     padding-top: 20px;
 }
 
+h1 {
+  font-size: 60px;
+  color: #f9d967;
+}
+
+#tac {
+  color: #e773ff;
+}
+
+#toe {
+  color: #4ffaff;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
 .board {
     width: 350px;
     margin: 20px auto;
+    padding: 20px;
+    border-radius: 30px;
+    background: #4ffaff;
+    color: #ffffff;
   }
   
   .sqr {
@@ -20,17 +44,29 @@
     text-align: center;
     line-height: 100px;
     vertical-align: top;
-    background-color: white;
+    background-color: #3c0384;
+    border-radius: 20px;
     margin: 5px 0;
   }
   
   button {
     margin: 10px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 25px;
     background-color: white;
-    border: 2px solid black;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.6);
     cursor: pointer;
+    border-radius: 999em;
+    color: #3c0384;
+    font-weight: 800;
+    text-transform: uppercase;
 }
+
+button:hover {
+  background-color: #e773ff;
+  color: #ffffff;
+}
+
+
 
   

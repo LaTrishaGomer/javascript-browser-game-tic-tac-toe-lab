@@ -1,3 +1,7 @@
+/*-------------------------------- Design Credit: Canva --------------------------------*/
+
+// https://www.canva.com/templates/EAEngMW6rFY-purple-colorful-3d-illustrations-tic-tac-toe-fun-presentation/
+
 /*-------------------------------- Constants --------------------------------*/
 
 const winningCombos = [
